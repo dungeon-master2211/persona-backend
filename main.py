@@ -20,6 +20,7 @@ app = FastAPI(title="Persona Chat", lifespan= lifespan)
 
 origins = [
     "http://localhost:5173",
+    "https://persona-frontend-psi.vercel.app",
 ]
 
 app.add_middleware(
